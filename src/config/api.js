@@ -2,7 +2,6 @@ import axios from "axios";
 
 export const API = axios.create({
   baseURL:
-    Process.env.SERVER_URL ||
     "https://backend-apriadi.herokuapp.com/api/v1/" ||
     "https://localhost:5000/api/v1",
 });
